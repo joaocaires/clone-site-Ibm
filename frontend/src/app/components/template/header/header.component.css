@@ -1,0 +1,20 @@
+.header{
+    background-color: white;
+}
+
+.imagem{
+    display: flex;
+    align-items: center;
+}
+
+.imagem .logo{
+    max-width: 95px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.login{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}

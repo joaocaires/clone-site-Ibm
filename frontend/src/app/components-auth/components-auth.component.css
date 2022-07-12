@@ -1,0 +1,26 @@
+.containerBox{
+    margin-top: 100px;
+    margin-left: 550px;
+    margin-bottom: 120px;
+    width: 200px;
+    background-color: blue;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+
+.retorno{
+   padding-top: 20px;
+}
+
+.entrada{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 8px;
+}

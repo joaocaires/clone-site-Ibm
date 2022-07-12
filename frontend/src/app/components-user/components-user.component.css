@@ -1,0 +1,28 @@
+.start{
+    display: flex;
+    justify-content: center;
+}
+
+.titleUser{
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.subTitle{
+    padding-left: 20px;
+    padding-bottom: 30px;
+}
+
+.redirectCard{
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 128px;
+    color: black;
+    background-color: rgb(180, 180, 235);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.redirectButton{
+    margin-left: 1150px;
+}

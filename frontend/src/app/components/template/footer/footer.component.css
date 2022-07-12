@@ -1,0 +1,13 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+
+    padding: 10px;
+    color: white;
+}
+
+.footer > span {
+    font-size: 1.1rem;
+    font-weight: 300;
+    padding-right: 10px;
+}

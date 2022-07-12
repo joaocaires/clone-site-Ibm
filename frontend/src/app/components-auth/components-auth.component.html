@@ -1,0 +1,23 @@
+<mat-card class="containerBox">
+    <mat-card-title class="titulo">Entrar</mat-card-title>
+    
+    <mat-form-field>
+        E-mail
+        <input type="text" placeholder="pat@example.com" [(ngModel)]="classLogin.email">
+      </mat-form-field>
+
+    <mat-form-field>
+        Senha
+        <input type="password" placeholder="Digite sua senha:" [(ngModel)]="classLogin.password">
+    </mat-form-field>
+
+    <button class="entrada" (click)="makeLogin()">
+        Entrar
+    </button>
+
+    <button>
+        <a routerLink="" class="retorno">
+            <i class="material-icons">reply</i>
+        </a>
+    </button>
+</mat-card>

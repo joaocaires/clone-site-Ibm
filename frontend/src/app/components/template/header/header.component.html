@@ -1,0 +1,19 @@
+<mat-toolbar class="header">
+    <span class="imagem">
+        <img routerLink="" class="logo" src="assets/download.png" alt="logo">
+    </span>
+    <section>
+        <button mat-button color="primary" routerLink="products">Produtos</button>
+        <button mat-button color="primary" routerLink="explore">Explorar mais</button>
+    </section>
+    <section>
+        <button class="login">
+                <a routerLink="auth">
+                    <i class="material-icons">person</i>
+                    Entrar
+                </a>
+        </button>
+    </section>
+</mat-toolbar>
+<hr>
+<router-outlet></router-outlet>

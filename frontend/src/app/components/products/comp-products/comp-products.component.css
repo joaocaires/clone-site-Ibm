@@ -1,0 +1,12 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.firstTxt{
+    padding-left: 20px;
+}
+
+.finalCard{
+    margin-bottom: 20px;
+}
